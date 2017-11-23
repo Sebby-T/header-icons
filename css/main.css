@@ -1,12 +1,73 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
 h1 {
-  font-family: "Merriweather", serif;
+  background-color: #d05c2e;
+  margin: 0;
+  padding: 0 0 .7rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.grain-left {
+  padding: .5em 0 0;
+  float: left;
+  width: 40px;
+}
+
+.grain-right {
+  padding: .5em 0 0;
+  float: right;
+  width: 40px;
+}
+
+nav {
+  background-color: #d05c2e;
+  border: 2px solid #a63f38;
+  overflow: hidden;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  padding: .4rem 0;
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }
