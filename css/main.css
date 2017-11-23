@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -60,14 +60,4 @@ nav a {
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
 }
