@@ -20,7 +20,7 @@ header {
 h1 {
   background-color: #d05c2e;
   margin: 0;
-  padding: 0 0 .7rem;
+  padding: .4rem 0;
   text-align: center;
   font-size: 2rem;
   color: #fff;
@@ -30,34 +30,51 @@ h1 {
   padding: .5em 0 0;
   float: left;
   width: 40px;
+  box-sizing: border-box;
 }
 
 .grain-right {
   padding: .5em 0 0;
   float: right;
   width: 40px;
+  box-sizing: border-box;
+}
+
+div {
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+}
+
+nav .center {
+  border-left: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
 }
 
 nav {
   background-color: #d05c2e;
-  border: 2px solid #a63f38;
-  overflow: hidden;
-  clear: both;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav li {
   list-style-type: none;
   padding: .4rem 0;
-  text-align: center;
+  display: inline;
 }
 
 nav a {
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  padding: .4em 0;
+}
+
+nav a:hover {
+  background-color: #a63f38;
 }
